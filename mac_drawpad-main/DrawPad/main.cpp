@@ -34,7 +34,12 @@ void DrawMain()
     DrawText("Hello, world!!", -12*14/2, -44, kColorRed);
     Sleep(0.5f);
     DrawText("Hello, world!!", -12*14/2, -66, kColorGray);
+
     DrawText("Hello, world!!", -12*14/2, -44, kColorGreen);
     Sleep(0.5f);
+    Sleep(0.5f);
+    DrawText("Hello, world!!", -12*14/2, -66, kColorBlack);
+    DrawText("Hello, world!!", -12*14/2, -66, kColorDarkBlue);
+
 }
 
